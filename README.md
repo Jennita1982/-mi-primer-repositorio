@@ -11,3 +11,8 @@ Este es mi primer proyecto en GitHub.
 ## Autor
 - Nombre: Jennifer Figueroa Villarroel
 - Carrera : Ingeniería en Informática
+
+## Tareas realizadas hoy
+- Creación de Usuario
+- Creación de mi Primer Repositorio
+- Creación de Primer Repositorio Colaborativo
