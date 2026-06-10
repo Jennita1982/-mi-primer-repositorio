@@ -8,3 +8,6 @@ Este es mi primer proyecto en GitHub.
 - Colaborar con otros
 
 
+## Autor
+- Nombre: Jennifer Figueroa Villarroel
+- Carrera : Ingeniería en Informática
