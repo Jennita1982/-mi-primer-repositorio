@@ -1,0 +1,30 @@
+# Programa para sumar números consecutivos en Python
+
+def suma_consecutivos(inicio: int, fin: int) -> int:
+    """
+    Calcula la suma de todos los números consecutivos desde 'inicio' hasta 'fin' (inclusive).
+    Si inicio > fin, intercambia los valores.
+    """
+    if inicio > fin:
+        inicio, fin = fin, inicio  # Asegurar que inicio <= fin
+    # Fórmula matemática: suma = n * (primer + último) / 2
+    cantidad = fin - inicio + 1
+    return cantidad * (inicio + fin) // 2
+
+
+def main():
+    try:
+        # Solicitar datos al usuario
+        inicio = int(input("Ingrese el número inicial: "))
+        fin = int(input("Ingrese el número final: "))
+
+        # Calcular y mostrar resultado
+        resultado = suma_consecutivos(inicio, fin)
+        print(f"La suma de los números consecutivos de {inicio} a {fin} es: {resultado}")
+
+    except ValueError:
+        print("Error: Debe ingresar solo números enteros.")
+
+
+if __name__ == "__main__":
+    main()
